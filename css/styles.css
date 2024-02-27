@@ -77,10 +77,9 @@ img:not(.nav-logo) {
   width: 100%;
   display: block;
 }
-.nav-logo {
-  width: 10rem;
+h5 {
+  font-size: 1rem;
 }
-
 h1,
 h2,
 h3,
@@ -193,6 +192,9 @@ Navbar
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
   z-index: 2;
+}
+.nav-logo {
+  width: 10rem;
 }
 .nav-icons {
   display: none;
@@ -447,24 +449,24 @@ Services
 Featured Tours
 ===============
 */
-.tour-card {
+.blog-card {
   transition: var(--transition);
   background: var(--clr-grey-10);
   margin-bottom: 2rem;
   box-shadow: var(--light-shadow);
 }
-.tour-card:hover {
+.blog-card:hover {
   box-shadow: var(--dark-shadow);
   transform: scale(1.02);
 }
-.tour-img-container {
+.blog-img-container {
   position: relative;
 }
-.tour-img {
+.blog-img {
   height: 15rem;
   object-fit: cover;
 }
-.tour-date {
+.blog-date {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -474,45 +476,45 @@ Featured Tours
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
 }
-.tour-info {
+.blog-info {
   padding: 1.25rem 1.5rem;
 }
-.tour-footer {
+.blog-footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
-.tour-footer p {
+.blog-footer p {
   line-height: 0;
   margin-bottom: 0;
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
-.tour-btn {
+.blog-btn {
   text-align: center;
 }
-.tour-title {
+.blog-title {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
-.tour-title p {
+.blog-title p {
   color: var(--clr-grey-7);
 }
 @media screen and (min-width: 768px) {
-  .featured-center {
+  .blog-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .tour-card {
+  .blog-card {
     flex: 0 0 calc(50% - 2rem);
   }
 }
 @media screen and (min-width: 1170px) {
-  .tour-card {
+  .blog-card {
     flex: 0 0 calc(33.3% - 2rem);
   }
 }
